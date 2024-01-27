@@ -35,7 +35,7 @@ public class LearningJava2 {
              String name = scanner.nextLine();
              System.out.println("What is your major?");
              String major = scanner.nextLine();
-             students.add(student);
+             //students.add(student);
             Student student = new Student(name,major);
             System.out.println("Do you want to enter an new student? y/n");
             input = scanner.nextLine();//This is to stop the while loop from continue executing till infinity
